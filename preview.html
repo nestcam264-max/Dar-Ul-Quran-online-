@@ -1,0 +1,957 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#065F46" />
+
+  <title>Dar ul Quran Online | Learn Quran Online with Expert Tutors</title>
+  <meta name="description" content="Learn the Holy Quran online with male and female tutors. One-to-one live Quran classes for kids and adults. Book your 3-day free trial on WhatsApp today." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph: social sharing and ad previews -->
+  <meta property="og:title" content="Dar ul Quran Online — Your Quran Learning Journey Starts Here" />
+  <meta property="og:description" content="One-to-one online Quran classes for children and adults. Book your 3-day free trial today." />
+  <meta property="og:type" content="website" />
+
+  <!-- Tailwind CSS CDN: use a compiled Tailwind build for production -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            emerald: {
+              700: '#065F46',
+              800: '#064E3B',
+              900: '#022C22'
+            },
+            gold: '#D97706',
+            cream: '#F9FAFB'
+          },
+          boxShadow: {
+            soft: '0 10px 35px rgba(6, 95, 70, 0.08)'
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+    body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .hero-bg {
+      background:
+        radial-gradient(ellipse at 85% 15%, rgba(217,119,6,.16), transparent 35%),
+        radial-gradient(ellipse at 10% 80%, rgba(16,185,129,.12), transparent 35%),
+        linear-gradient(135deg, #f0fdf4 0%, #ffffff 55%, #fffbeb 100%);
+    }
+    .islamic-pattern {
+      background-image: radial-gradient(rgba(6,95,70,.08) 1px, transparent 1px);
+      background-size: 22px 22px;
+    }
+    .course-card, .benefit-card, .pricing-card {
+      transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+    }
+    .course-card:hover, .benefit-card:hover, .pricing-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 35px rgba(6,95,70,.10);
+    }
+    .focus-ring:focus-visible {
+      outline: 3px solid #D97706;
+      outline-offset: 3px;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800 antialiased">
+
+  <!-- =========================================================
+       1. ANNOUNCEMENT BAR
+  ========================================================== -->
+  <div class="bg-emerald-800 px-4 py-2.5 text-center text-sm text-white">
+    <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-3 gap-y-1">
+      <span class="font-semibold text-amber-300">Special Offer:</span>
+      <span>Book a 3-Day Free Trial Class Today!</span>
+      <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20I%20want%20to%20book%20a%20Free%20Trial%20Class%20at%20Dar%20ul%20Quran%20Online."
+         target="_blank" rel="noopener noreferrer"
+         class="font-bold underline decoration-amber-300 underline-offset-4 hover:text-amber-200 focus-ring">
+        Contact Us →
+      </a>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       2. NAVIGATION HEADER
+  ========================================================== -->
+  <header class="sticky top-0 z-40 border-b border-gray-100 bg-white/95 backdrop-blur-md">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8"
+         aria-label="Main navigation">
+
+      <a href="#home" class="focus-ring flex items-center gap-3 rounded-lg" aria-label="Dar ul Quran Online home">
+        <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-700 text-2xl text-amber-300"
+              aria-hidden="true">۞</span>
+        <span>
+          <span class="block text-base font-extrabold tracking-tight text-emerald-800 sm:text-lg">Dar ul Quran</span>
+          <span class="block text-xs font-medium tracking-[.16em] text-gray-500">ONLINE ACADEMY</span>
+        </span>
+      </a>
+
+      <div id="desktop-menu" class="hidden items-center gap-7 lg:flex">
+        <a href="#home" class="text-sm font-medium hover:text-emerald-700">Home</a>
+        <a href="#courses" class="text-sm font-medium hover:text-emerald-700">Courses</a>
+        <a href="#why-us" class="text-sm font-medium hover:text-emerald-700">Why Us</a>
+        <a href="#pricing" class="text-sm font-medium hover:text-emerald-700">Fee Plans</a>
+        <a href="#reviews" class="text-sm font-medium hover:text-emerald-700">Reviews</a>
+      </div>
+
+      <div class="hidden sm:block">
+        <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20I%20want%20to%20book%20a%20Free%20Trial%20Class%20at%20Dar%20ul%20Quran%20Online."
+           target="_blank" rel="noopener noreferrer"
+           class="focus-ring inline-flex items-center justify-center rounded-lg bg-gold px-5 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-amber-700">
+          Book Free Trial
+        </a>
+      </div>
+
+      <button id="menu-toggle" type="button"
+              class="focus-ring rounded-lg border border-gray-200 p-2 text-emerald-800 sm:ml-3 lg:hidden"
+              aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation menu">
+        <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" aria-hidden="true">
+          <path d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </nav>
+
+    <!-- Mobile navigation -->
+    <div id="mobile-menu" class="hidden border-t border-gray-100 bg-white px-5 py-4 shadow-lg lg:hidden">
+      <div class="mx-auto flex max-w-7xl flex-col gap-1">
+        <a href="#home" class="rounded-lg px-3 py-3 text-sm font-medium hover:bg-emerald-50">Home</a>
+        <a href="#courses" class="rounded-lg px-3 py-3 text-sm font-medium hover:bg-emerald-50">Courses</a>
+        <a href="#why-us" class="rounded-lg px-3 py-3 text-sm font-medium hover:bg-emerald-50">Why Us</a>
+        <a href="#pricing" class="rounded-lg px-3 py-3 text-sm font-medium hover:bg-emerald-50">Fee Plans</a>
+        <a href="#reviews" class="rounded-lg px-3 py-3 text-sm font-medium hover:bg-emerald-50">Reviews</a>
+        <a href="#contact" class="mt-2 rounded-lg bg-gold px-4 py-3 text-center text-sm font-bold text-white">Book Free Trial</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- =========================================================
+         3. HERO SECTION
+    ========================================================== -->
+    <section id="home" class="hero-bg relative overflow-hidden">
+      <div class="islamic-pattern absolute inset-0 opacity-50" aria-hidden="true"></div>
+
+      <div class="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-16 sm:px-6 sm:py-20 lg:grid-cols-2 lg:px-8 lg:py-24">
+
+        <div>
+          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-emerald-100 bg-white/80 px-4 py-2 text-xs font-bold text-emerald-800 shadow-sm sm:text-sm">
+            <span class="h-2 w-2 rounded-full bg-emerald-500" aria-hidden="true"></span>
+            ONLINE QURAN CLASSES FOR ALL AGES
+          </div>
+
+          <h1 class="max-w-2xl text-4xl font-extrabold leading-[1.14] tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
+            Learn Holy Quran Online at Home with
+            <span class="text-emerald-700">Certified Male &amp; Female Tutors</span>
+          </h1>
+
+          <p class="mt-6 max-w-xl text-base leading-8 text-gray-600 sm:text-lg">
+            Interactive 1-on-1 live classes tailored for kids and adults worldwide.
+            Enjoy flexible schedules, personal attention, and affordable plans —
+            all from the comfort of your home.
+          </p>
+
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20I%20want%20to%20book%20a%20Free%20Trial%20Class%20at%20Dar%20ul%20Quran%20Online."
+               target="_blank" rel="noopener noreferrer"
+               class="focus-ring inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-700 px-6 py-4 text-center font-bold text-white shadow-lg shadow-emerald-900/15 transition hover:bg-emerald-800">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                   viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20.52 3.48A11.85 11.85 0 0 0 12.07 0C5.5 0 .15 5.35.15 11.92c0 2.1.55 4.15 1.6 5.96L.05 24l6.27-1.64a11.94 11.94 0 0 0 5.74 1.46h.01C18.64 23.82 24 18.47 24 11.9a11.84 11.84 0 0 0-3.48-8.42ZM12.07 21.8a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.72.97.99-3.62-.24-.37a9.85 9.85 0 0 1-1.52-5.27c0-5.48 4.46-9.94 9.94-9.94a9.88 9.88 0 0 1 7.03 2.91 9.87 9.87 0 0 1 2.9 7.03c0 5.48-4.46 9.94-9.94 9.94Zm5.45-7.44c-.3-.15-1.77-.87-2.05-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.74-1.64-2.04-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.21 5.09 4.5.71.3 1.26.49 1.69.62.71.22 1.36.19 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/>
+              </svg>
+              Start 3-Day Free Trial
+            </a>
+
+            <a href="#courses"
+               class="focus-ring inline-flex items-center justify-center rounded-xl border-2 border-emerald-700 bg-white/80 px-6 py-4 font-bold text-emerald-800 transition hover:bg-emerald-50">
+              View All Courses <span class="ml-2" aria-hidden="true">↓</span>
+            </a>
+          </div>
+
+          <p class="mt-4 text-xs leading-5 text-gray-500">
+            No commitment during your trial. Message us to discuss your learning needs.
+          </p>
+
+          <!-- Trust badges -->
+          <div class="mt-9 grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <div class="flex items-center gap-3">
+              <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-emerald-800" aria-hidden="true">✓</span>
+              <span class="text-sm font-semibold text-gray-700">1-on-1 Live Classes</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-amber-100 text-amber-800" aria-hidden="true">✦</span>
+              <span class="text-sm font-semibold text-gray-700">Qualified Quran Tutors</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-emerald-800" aria-hidden="true">◷</span>
+              <span class="text-sm font-semibold text-gray-700">Flexible Timings</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-amber-100 text-amber-800" aria-hidden="true">♡</span>
+              <span class="text-sm font-semibold text-gray-700">Male &amp; Female Tutors</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero visual: self-contained CSS illustration, no external image dependency -->
+        <div class="relative mx-auto w-full max-w-lg">
+          <div class="absolute -inset-4 rounded-[2rem] bg-emerald-100/70 blur-2xl" aria-hidden="true"></div>
+          <div class="relative overflow-hidden rounded-3xl border border-white bg-white p-5 shadow-2xl sm:p-7">
+            <div class="flex items-center justify-between">
+              <div>
+                <p class="text-xs font-bold uppercase tracking-[.2em] text-amber-700">Your learning journey</p>
+                <h2 class="mt-2 text-xl font-extrabold text-emerald-900 sm:text-2xl">Learn. Recite. Grow.</h2>
+              </div>
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-100 text-3xl text-emerald-800" aria-hidden="true">۞</div>
+            </div>
+
+            <div class="mt-6 rounded-2xl bg-emerald-800 p-6 text-center text-white sm:p-8">
+              <p class="text-xs font-bold uppercase tracking-[.25em] text-amber-300">Begin with Bismillah</p>
+              <p lang="ar" dir="rtl" class="mt-5 text-4xl leading-relaxed text-amber-100 sm:text-5xl">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+              <p class="mt-4 text-sm leading-6 text-emerald-100">In the name of Allah, the Most Compassionate, the Most Merciful.</p>
+            </div>
+
+            <div class="mt-5 space-y-3">
+              <div class="flex items-center gap-4 rounded-xl border border-gray-100 p-3">
+                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-amber-50 text-xl" aria-hidden="true">📖</div>
+                <div>
+                  <p class="font-bold text-gray-800">Personal Quran Lessons</p>
+                  <p class="mt-1 text-xs text-gray-500">Lessons tailored to your current level</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 rounded-xl border border-gray-100 p-3">
+                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-xl" aria-hidden="true">🎧</div>
+                <div>
+                  <p class="font-bold text-gray-800">Live, Interactive Learning</p>
+                  <p class="mt-1 text-xs text-gray-500">Practice recitation with your tutor</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-4 rounded-xl border border-gray-100 p-3">
+                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-amber-50 text-xl" aria-hidden="true">🌍</div>
+                <div>
+                  <p class="font-bold text-gray-800">Learn From Anywhere</p>
+                  <p class="mt-1 text-xs text-gray-500">At home, on your own schedule</p>
+                </div>
+              </div>
+            </div>
+
+            <a href="#contact" class="mt-5 flex items-center justify-center rounded-xl bg-amber-50 px-4 py-3 text-sm font-bold text-amber-800 transition hover:bg-amber-100">
+              Find the Right Course for You →
+            </a>
+          </div>
+          <div class="absolute -bottom-4 -left-2 hidden rounded-xl border border-emerald-100 bg-white px-4 py-3 shadow-lg sm:block">
+            <p class="text-sm font-bold text-emerald-800">Your first step starts here</p>
+            <p class="mt-1 text-xs text-gray-500">Book your free trial today</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. COURSES OFFERED
+    ========================================================== -->
+    <section id="courses" class="bg-white px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="mx-auto max-w-2xl text-center">
+          <p class="text-xs font-bold uppercase tracking-[.25em] text-amber-700">Our Quran Programs</p>
+          <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            The Right Course for Every Learner
+          </h2>
+          <p class="mt-4 leading-7 text-gray-600">
+            From the first Arabic letters to advanced Quran study, choose a learning path that suits your age, goals, and experience.
+          </p>
+        </div>
+
+        <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+          <!-- Course 1 -->
+          <article class="course-card rounded-2xl border border-gray-100 bg-white p-6 shadow-soft">
+            <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-50 text-3xl" aria-hidden="true">📚</div>
+            <h3 class="mt-5 text-xl font-bold text-gray-900">Noorani Qaida</h3>
+            <p class="mt-3 text-sm leading-7 text-gray-600">
+              Build a strong foundation in Arabic letters, pronunciation, and basic reading. Ideal for children and beginners.
+            </p>
+            <ul class="mt-4 space-y-2 text-sm text-gray-600">
+              <li>✓ Arabic letters and sounds</li>
+              <li>✓ Step-by-step practice</li>
+              <li>✓ Beginner-friendly teaching</li>
+            </ul>
+            <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20I%20am%20interested%20in%20the%20Noorani%20Qaida%20course.%20Please%20tell%20me%20about%20the%20free%20trial."
+               target="_blank" rel="noopener noreferrer"
+               class="mt-6 inline-flex w-full items-center justify-center rounded-xl border border-emerald-700 px-4 py-3 text-sm font-bold text-emerald-800 hover:bg-emerald-50">
+              Try This Course →
+            </a>
+          </article>
+
+          <!-- Course 2 -->
+          <article class="course-card rounded-2xl border border-emerald-100 bg-emerald-50/40 p-6 shadow-soft">
+            <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-emerald-100 text-3xl" aria-hidden="true">📖</div>
+            <h3 class="mt-5 text-xl font-bold text-gray-900">Quran Reading &amp; Tajweed</h3>
+            <p class="mt-3 text-sm leading-7 text-gray-600">
+              Improve your recitation with guidance on correct pronunciation, articulation points, and Tajweed rules.
+            </p>
+            <ul class="mt-4 space-y-2 text-sm text-gray-600">
+              <li>✓ Guided recitation practice</li>
+              <li>✓ Learn Tajweed step by step</li>
+              <li>✓ Personal correction and feedback</li>
+            </ul>
+            <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20I%20am%20interested%20in%20Quran%20Reading%20and%20Tajweed.%20Please%20tell%20me%20about%20the%20free%20trial."
+               target="_blank" rel="noopener noreferrer"
+               class="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-emerald-700 px-4 py-3 text-sm font-bold text-white hover:bg-emerald-800">
+              Try This Course →
+            </a>
+          </article>
+
+          <!-- Course 3 -->
+          <article class="course-card rounded-2xl border border-gray-100 bg-white p-6 shadow-soft">
+            <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-50 text-3xl" aria-hidden="true">🌙</div>
+            <h3 class="mt-5 text-xl font-bold text-gray-900">Quran Memorization (Hifz)</h3>
+            <p class="mt-3 text-sm leading-7 text-gray-600">
+              Follow a structured memorization and revision routine designed around the learner's pace and ability.
+            </p>
+            <ul class="mt-4 space-y-2 text-sm text-gray-600">
+              <li>✓ Personalized memorization goals</li>
+              <li>✓ Regular revision sessions</li>
+              <li>✓ Progress-focused learning</li>
+            </ul>
+            <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20I%20am%20interested%20in%20the%20Quran%20Memorization%20Hifz%20course.%20Please%20tell%20me%20about%20the%20free%20trial."
+               target="_blank" rel="noopener noreferrer"
+               class="mt-6 inline-flex w-full items-center justify-center rounded-xl border border-emerald-700 px-4 py-3 text-sm font-bold text-emerald-800 hover:bg-emerald-50">
+              Try This Course →
+            </a>
+          </article>
+
+          <!-- Course 4 -->
+          <article class="course-card rounded-2xl border border-gray-100 bg-white p-6 shadow-soft">
+            <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-50 text-3xl" aria-hidden="true">💡</div>
+            <h3 class="mt-5 text-xl font-bold text-gray-900">Translation &amp; Tafseer</h3>
+            <p class="mt-3 text-sm leading-7 text-gray-600">
+              Explore the meanings and context of Quranic verses with an emphasis on understanding and reflection.
+            </p>
+            <ul class="mt-4 space-y-2 text-sm text-gray-600">
+              <li>✓ Understand verse meanings</li>
+              <li>✓ Guided study and discussion</li>
+              <li>✓ Learn at a comfortable pace</li>
+            </ul>
+            <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20I%20am%20interested%20in%20Quran%20Translation%20and%20Tafseer.%20Please%20tell%20me%20about%20the%20free%20trial."
+               target="_blank" rel="noopener noreferrer"
+               class="mt-6 inline-flex w-full items-center justify-center rounded-xl border border-emerald-700 px-4 py-3 text-sm font-bold text-emerald-800 hover:bg-emerald-50">
+              Try This Course →
+            </a>
+          </article>
+
+          <!-- Course 5 -->
+          <article class="course-card rounded-2xl border border-gray-100 bg-white p-6 shadow-soft">
+            <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-emerald-100 text-3xl" aria-hidden="true">🕌</div>
+            <h3 class="mt-5 text-xl font-bold text-gray-900">Islamic Studies &amp; Daily Duas</h3>
+            <p class="mt-3 text-sm leading-7 text-gray-600">
+              Learn the basics of Islamic practice, Namaz, daily supplications, and essential knowledge for everyday life.
+            </p>
+            <ul class="mt-4 space-y-2 text-sm text-gray-600">
+              <li>✓ Namaz learning</li>
+              <li>✓ Daily Duas and Adhkar</li>
+              <li>✓ Foundational Islamic knowledge</li>
+            </ul>
+            <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20I%20am%20interested%20in%20Islamic%20Studies%2C%20Namaz%20and%20Daily%20Duas.%20Please%20tell%20me%20about%20the%20free%20trial."
+               target="_blank" rel="noopener noreferrer"
+               class="mt-6 inline-flex w-full items-center justify-center rounded-xl border border-emerald-700 px-4 py-3 text-sm font-bold text-emerald-800 hover:bg-emerald-50">
+              Try This Course →
+            </a>
+          </article>
+
+          <!-- Course 6 / Conversion card -->
+          <article class="flex flex-col justify-between rounded-2xl bg-emerald-800 p-6 text-white shadow-soft">
+            <div>
+              <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10 text-3xl" aria-hidden="true">✨</div>
+              <h3 class="mt-5 text-xl font-bold">Not Sure Where to Start?</h3>
+              <p class="mt-3 text-sm leading-7 text-emerald-100">
+                Tell us your learning goals. We'll help you explore a suitable course and arrange your trial class.
+              </p>
+            </div>
+            <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20Please%20help%20me%20choose%20the%20right%20Quran%20course."
+               target="_blank" rel="noopener noreferrer"
+               class="mt-6 inline-flex w-full items-center justify-center rounded-xl bg-gold px-4 py-3 text-sm font-bold text-white hover:bg-amber-700">
+              Help Me Choose →
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. WHY CHOOSE US / BENEFITS
+    ========================================================== -->
+    <section id="why-us" class="bg-gray-50 px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+      <div class="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-[.25em] text-amber-700">Why Families Choose Us</p>
+          <h2 class="mt-3 text-3xl font-extrabold leading-tight text-gray-900 sm:text-4xl">
+            Quality Quran Learning, Built Around Your Family
+          </h2>
+          <p class="mt-5 leading-8 text-gray-600">
+            Every learner is different. Our one-to-one online learning approach is designed to give students room to practice, ask questions, and build confidence at their own pace.
+          </p>
+          <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20I%20would%20like%20to%20learn%20more%20about%20Dar%20ul%20Quran%20Online."
+             target="_blank" rel="noopener noreferrer"
+             class="mt-7 inline-flex items-center justify-center rounded-xl bg-emerald-700 px-6 py-3.5 font-bold text-white hover:bg-emerald-800">
+            Talk to Our Team →
+          </a>
+        </div>
+
+        <div class="grid gap-4 sm:grid-cols-2">
+          <article class="benefit-card rounded-2xl border border-gray-100 bg-white p-5 shadow-sm">
+            <span class="text-3xl" aria-hidden="true">🎓</span>
+            <h3 class="mt-4 font-bold text-gray-900">Qualified Tutors</h3>
+            <p class="mt-2 text-sm leading-6 text-gray-600">Choose from male and female instructors suited to your learning preferences.</p>
+          </article>
+          <article class="benefit-card rounded-2xl border border-gray-100 bg-white p-5 shadow-sm">
+            <span class="text-3xl" aria-hidden="true">👤</span>
+            <h3 class="mt-4 font-bold text-gray-900">Individual Attention</h3>
+            <p class="mt-2 text-sm leading-6 text-gray-600">One-to-one lessons focused on your progress, questions, and recitation.</p>
+          </article>
+          <article class="benefit-card rounded-2xl border border-gray-100 bg-white p-5 shadow-sm">
+            <span class="text-3xl" aria-hidden="true">🕒</span>
+            <h3 class="mt-4 font-bold text-gray-900">Flexible Scheduling</h3>
+            <p class="mt-2 text-sm leading-6 text-gray-600">Discuss a lesson schedule that works with your family's time zone and routine.</p>
+          </article>
+          <article class="benefit-card rounded-2xl border border-gray-100 bg-white p-5 shadow-sm">
+            <span class="text-3xl" aria-hidden="true">🌐</span>
+            <h3 class="mt-4 font-bold text-gray-900">Multilingual Support</h3>
+            <p class="mt-2 text-sm leading-6 text-gray-600">Ask about lessons and support in English, Urdu, and Arabic.</p>
+          </article>
+          <article class="benefit-card rounded-2xl border border-gray-100 bg-white p-5 shadow-sm sm:col-span-2">
+            <div class="flex items-start gap-4">
+              <span class="text-3xl" aria-hidden="true">🏡</span>
+              <div>
+                <h3 class="font-bold text-gray-900">Convenient Learning at Home</h3>
+                <p class="mt-2 text-sm leading-6 text-gray-600">Learn online from your preferred device, with parental involvement and appropriate supervision for children.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. HOW IT WORKS
+    ========================================================== -->
+    <section class="px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="text-center">
+          <p class="text-xs font-bold uppercase tracking-[.25em] text-amber-700">Getting Started Is Easy</p>
+          <h2 class="mt-3 text-3xl font-extrabold text-gray-900 sm:text-4xl">Your Journey in 3 Simple Steps</h2>
+        </div>
+
+        <div class="mt-12 grid gap-8 md:grid-cols-3">
+          <article class="relative text-center">
+            <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-emerald-700 text-2xl font-extrabold text-white shadow-lg">01</div>
+            <h3 class="mt-5 text-xl font-bold">Message Us</h3>
+            <p class="mx-auto mt-3 max-w-sm text-sm leading-7 text-gray-600">
+              Click Book Free Trial on WhatsApp and tell us about the learner, preferred course, and suitable timings.
+            </p>
+          </article>
+          <article class="relative text-center">
+            <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-emerald-700 text-2xl font-extrabold text-white shadow-lg">02</div>
+            <h3 class="mt-5 text-xl font-bold">Attend Your Trial</h3>
+            <p class="mx-auto mt-3 max-w-sm text-sm leading-7 text-gray-600">
+              Arrange your three-day trial with the academy and experience the lesson format before deciding.
+            </p>
+          </article>
+          <article class="relative text-center">
+            <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-gold text-2xl font-extrabold text-white shadow-lg">03</div>
+            <h3 class="mt-5 text-xl font-bold">Choose Your Plan</h3>
+            <p class="mx-auto mt-3 max-w-sm text-sm leading-7 text-gray-600">
+              Discuss your preferred lesson frequency and monthly fee, then begin your regular learning journey.
+            </p>
+          </article>
+        </div>
+
+        <div class="mt-10 text-center">
+          <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20I%20want%20to%20start%20my%203-day%20free%20trial%20at%20Dar%20ul%20Quran%20Online."
+             target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center justify-center rounded-xl bg-emerald-700 px-7 py-4 font-bold text-white shadow-lg hover:bg-emerald-800">
+            Start My Free Trial →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. PARENT REVIEWS / SOCIAL PROOF
+         IMPORTANT: Replace sample testimonials with genuine,
+         permission-approved parent reviews before publishing.
+    ========================================================== -->
+    <section id="reviews" class="bg-emerald-50/70 px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="mx-auto max-w-2xl text-center">
+          <p class="text-xs font-bold uppercase tracking-[.25em] text-amber-700">Parent Feedback</p>
+          <h2 class="mt-3 text-3xl font-extrabold text-gray-900 sm:text-4xl">What Parents Look For in a Quran Academy</h2>
+          <p class="mt-4 text-sm leading-7 text-gray-600">Personal attention, patient teaching, and a schedule that fits family life matter when choosing an online Quran teacher.</p>
+        </div>
+
+        <!-- Sample cards: these are not verified customer reviews.
+             Replace the content below with real, consented testimonials. -->
+        <div class="mt-12 grid gap-6 md:grid-cols-3">
+          <article class="rounded-2xl border border-gray-100 bg-white p-6 shadow-soft">
+            <div class="flex gap-1 text-lg text-gold" aria-label="Sample five-star rating">★★★★★</div>
+            <p class="mt-4 text-sm leading-7 text-gray-600">
+              “We wanted a convenient way for our child to learn Quran from home. Individual lessons and a schedule that fits our routine are important to our family.”
+            </p>
+            <div class="mt-6 border-t border-gray-100 pt-4">
+              <p class="font-bold text-gray-900">Parent testimonial placeholder</p>
+              <p class="mt-1 text-xs text-gray-500">United Kingdom · Sample copy</p>
+            </div>
+          </article>
+
+          <article class="rounded-2xl border border-gray-100 bg-white p-6 shadow-soft">
+            <div class="flex gap-1 text-lg text-gold" aria-label="Sample five-star rating">★★★★★</div>
+            <p class="mt-4 text-sm leading-7 text-gray-600">
+              “Finding a suitable online Quran class means looking for a teacher who understands our goals and gives the student time to practice and improve.”
+            </p>
+            <div class="mt-6 border-t border-gray-100 pt-4">
+              <p class="font-bold text-gray-900">Parent testimonial placeholder</p>
+              <p class="mt-1 text-xs text-gray-500">United States · Sample copy</p>
+            </div>
+          </article>
+
+          <article class="rounded-2xl border border-gray-100 bg-white p-6 shadow-soft">
+            <div class="flex gap-1 text-lg text-gold" aria-label="Sample five-star rating">★★★★★</div>
+            <p class="mt-4 text-sm leading-7 text-gray-600">
+              “For our family, flexibility and the ability to discuss our learning needs before committing to regular lessons make the process easier.”
+            </p>
+            <div class="mt-6 border-t border-gray-100 pt-4">
+              <p class="font-bold text-gray-900">Parent testimonial placeholder</p>
+              <p class="mt-1 text-xs text-gray-500">United Arab Emirates · Sample copy</p>
+            </div>
+          </article>
+        </div>
+
+        <p class="mt-6 text-center text-xs text-gray-500">
+          The testimonial text above is illustrative placeholder content, not verified customer feedback. Replace it before publishing.
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         8. FEE PLANS / PRICING
+         Actual prices were not supplied. Ask for a quote instead
+         of displaying invented prices.
+    ========================================================== -->
+    <section id="pricing" class="bg-white px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="mx-auto max-w-2xl text-center">
+          <p class="text-xs font-bold uppercase tracking-[.25em] text-amber-700">Flexible Fee Plans</p>
+          <h2 class="mt-3 text-3xl font-extrabold text-gray-900 sm:text-4xl">Choose a Schedule That Fits Your Family</h2>
+          <p class="mt-4 text-sm leading-7 text-gray-600">
+            Compare weekly lesson frequencies and contact us for the current monthly fee in your preferred currency.
+          </p>
+        </div>
+
+        <div class="mt-12 grid gap-6 md:grid-cols-3">
+
+          <!-- Plan 1 -->
+          <article class="pricing-card rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
+            <p class="text-xs font-bold uppercase tracking-[.2em] text-emerald-700">Flexible Start</p>
+            <h3 class="mt-3 text-2xl font-extrabold text-gray-900">2 Days / Week</h3>
+            <p class="mt-2 text-sm text-gray-500">A steady starting routine</p>
+            <div class="my-6 border-t border-gray-100 pt-6">
+              <p class="text-2xl font-extrabold text-emerald-800">Get a Quote</p>
+              <p class="mt-2 text-xs text-gray-500">Monthly fee confirmed by the academy</p>
+            </div>
+            <ul class="space-y-3 text-sm text-gray-600">
+              <li>✓ Two lessons per week</li>
+              <li>✓ One-to-one online classes</li>
+              <li>✓ Flexible schedule discussion</li>
+              <li>✓ Choose an available course</li>
+            </ul>
+            <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20Please%20share%20the%20monthly%20fee%20for%20the%202-days-per-week%20Quran%20class%20plan."
+               target="_blank" rel="noopener noreferrer"
+               class="mt-8 inline-flex w-full items-center justify-center rounded-xl border-2 border-emerald-700 px-4 py-3 font-bold text-emerald-800 hover:bg-emerald-50">
+              Get Started on WhatsApp
+            </a>
+          </article>
+
+          <!-- Plan 2 -->
+          <article class="pricing-card relative rounded-2xl border-2 border-emerald-700 bg-white p-7 shadow-xl shadow-emerald-900/10">
+            <div class="absolute -top-3 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-gold px-4 py-1.5 text-xs font-bold text-white">
+              POPULAR CHOICE
+            </div>
+            <p class="mt-2 text-xs font-bold uppercase tracking-[.2em] text-emerald-700">Balanced Routine</p>
+            <h3 class="mt-3 text-2xl font-extrabold text-gray-900">3 Days / Week</h3>
+            <p class="mt-2 text-sm text-gray-500">Consistent weekly practice</p>
+            <div class="my-6 border-t border-gray-100 pt-6">
+              <p class="text-2xl font-extrabold text-emerald-800">Get a Quote</p>
+              <p class="mt-2 text-xs text-gray-500">Monthly fee confirmed by the academy</p>
+            </div>
+            <ul class="space-y-3 text-sm text-gray-600">
+              <li>✓ Three lessons per week</li>
+              <li>✓ One-to-one online classes</li>
+              <li>✓ Flexible schedule discussion</li>
+              <li>✓ Choose an available course</li>
+            </ul>
+            <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20Please%20share%20the%20monthly%20fee%20for%20the%203-days-per-week%20Quran%20class%20plan."
+               target="_blank" rel="noopener noreferrer"
+               class="mt-8 inline-flex w-full items-center justify-center rounded-xl bg-emerald-700 px-4 py-3 font-bold text-white hover:bg-emerald-800">
+              Get Started on WhatsApp
+            </a>
+          </article>
+
+          <!-- Plan 3 -->
+          <article class="pricing-card rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
+            <p class="text-xs font-bold uppercase tracking-[.2em] text-emerald-700">Intensive Practice</p>
+            <h3 class="mt-3 text-2xl font-extrabold text-gray-900">5 Days / Week</h3>
+            <p class="mt-2 text-sm text-gray-500">A more frequent learning routine</p>
+            <div class="my-6 border-t border-gray-100 pt-6">
+              <p class="text-2xl font-extrabold text-emerald-800">Get a Quote</p>
+              <p class="mt-2 text-xs text-gray-500">Monthly fee confirmed by the academy</p>
+            </div>
+            <ul class="space-y-3 text-sm text-gray-600">
+              <li>✓ Five lessons per week</li>
+              <li>✓ One-to-one online classes</li>
+              <li>✓ Flexible schedule discussion</li>
+              <li>✓ Choose an available course</li>
+            </ul>
+            <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20Please%20share%20the%20monthly%20fee%20for%20the%205-days-per-week%20Quran%20class%20plan."
+               target="_blank" rel="noopener noreferrer"
+               class="mt-8 inline-flex w-full items-center justify-center rounded-xl border-2 border-emerald-700 px-4 py-3 font-bold text-emerald-800 hover:bg-emerald-50">
+              Get Started on WhatsApp
+            </a>
+          </article>
+
+        </div>
+        <p class="mt-6 text-center text-xs text-gray-500">
+          Ask us about class duration, tutor availability, monthly fees, payment methods, and your local time zone.
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         9. LEAD GENERATION FORM & CONTACT
+         Submits a pre-filled inquiry to WhatsApp; no backend needed.
+    ========================================================== -->
+    <section id="contact" class="bg-emerald-900 px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+      <div class="mx-auto grid max-w-7xl items-start gap-12 lg:grid-cols-2">
+        <div class="text-white">
+          <p class="text-xs font-bold uppercase tracking-[.25em] text-amber-300">Start Learning Today</p>
+          <h2 class="mt-4 text-3xl font-extrabold leading-tight sm:text-4xl">
+            Give Your Family the Gift of Quran Learning
+          </h2>
+          <p class="mt-5 max-w-xl leading-8 text-emerald-100">
+            Tell us a little about your learning needs. Our team can help you discuss course options, available tutors, suitable timings, and your free trial.
+          </p>
+
+          <div class="mt-8 space-y-5">
+            <div class="flex items-start gap-4">
+              <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/10 text-xl" aria-hidden="true">💬</span>
+              <div>
+                <h3 class="font-bold">WhatsApp Inquiry</h3>
+                <a href="https://wa.me/923165611279"
+                   target="_blank" rel="noopener noreferrer"
+                   class="mt-1 inline-block text-emerald-100 underline decoration-amber-300 underline-offset-4 hover:text-white">
+                  0316-5611279
+                </a>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/10 text-xl" aria-hidden="true">🌍</span>
+              <div>
+                <h3 class="font-bold">Serving Learners Worldwide</h3>
+                <p class="mt-1 text-sm leading-6 text-emerald-100">UK, USA, Canada, Australia, Middle East, Pakistan, and beyond.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/10 text-xl" aria-hidden="true">📅</span>
+              <div>
+                <h3 class="font-bold">Tell Us Your Preferred Time</h3>
+                <p class="mt-1 text-sm leading-6 text-emerald-100">Share your country or time zone so we can discuss suitable lesson times.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Inquiry form -->
+        <div class="rounded-3xl bg-white p-6 shadow-2xl sm:p-8">
+          <div class="mb-6">
+            <h3 class="text-2xl font-extrabold text-gray-900">Book Your Free Trial</h3>
+            <p class="mt-2 text-sm leading-6 text-gray-500">Complete the form below to prepare your WhatsApp inquiry.</p>
+          </div>
+
+          <form id="inquiry-form" class="space-y-5">
+            <div>
+              <label for="full-name" class="mb-2 block text-sm font-semibold text-gray-700">Your Full Name *</label>
+              <input id="full-name" name="name" type="text" autocomplete="name"
+                     required maxlength="100" placeholder="Enter your name"
+                     class="focus-ring w-full rounded-xl border border-gray-300 px-4 py-3.5 text-sm outline-none transition focus:border-emerald-700"
+              />
+            </div>
+
+            <div>
+              <label for="phone" class="mb-2 block text-sm font-semibold text-gray-700">Your WhatsApp / Phone Number *</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel"
+                     required maxlength="30" placeholder="+44, +1, +61, +971..."
+                     class="focus-ring w-full rounded-xl border border-gray-300 px-4 py-3.5 text-sm outline-none transition focus:border-emerald-700"
+              />
+            </div>
+
+            <div>
+              <label for="country" class="mb-2 block text-sm font-semibold text-gray-700">Country / Time Zone</label>
+              <select id="country" name="country"
+                      class="focus-ring w-full rounded-xl border border-gray-300 bg-white px-4 py-3.5 text-sm outline-none focus:border-emerald-700">
+                <option value="">Select your country</option>
+                <option>United Kingdom</option>
+                <option>United States</option>
+                <option>Canada</option>
+                <option>Australia</option>
+                <option>United Arab Emirates</option>
+                <option>Saudi Arabia</option>
+                <option>Pakistan</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="course" class="mb-2 block text-sm font-semibold text-gray-700">Course of Interest *</label>
+              <select id="course" name="course" required
+                      class="focus-ring w-full rounded-xl border border-gray-300 bg-white px-4 py-3.5 text-sm outline-none focus:border-emerald-700">
+                <option value="">Choose a course</option>
+                <option>Noorani Qaida for Kids & Beginners</option>
+                <option>Quran Reading with Tajweed</option>
+                <option>Quran Memorization (Hifz)</option>
+                <option>Quran Translation & Tafseer</option>
+                <option>Islamic Studies, Namaz & Daily Duas</option>
+                <option>Not Sure — Please Guide Me</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="learner" class="mb-2 block text-sm font-semibold text-gray-700">Who Will Be Learning?</label>
+              <select id="learner" name="learner"
+                      class="focus-ring w-full rounded-xl border border-gray-300 bg-white px-4 py-3.5 text-sm outline-none focus:border-emerald-700">
+                <option value="">Select learner</option>
+                <option>Child</option>
+                <option>Adult</option>
+                <option>Multiple family members</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="schedule" class="mb-2 block text-sm font-semibold text-gray-700">Preferred Weekly Schedule</label>
+              <select id="schedule" name="schedule"
+                      class="focus-ring w-full rounded-xl border border-gray-300 bg-white px-4 py-3.5 text-sm outline-none focus:border-emerald-700">
+                <option value="">Select preferred schedule</option>
+                <option>2 days per week</option>
+                <option>3 days per week</option>
+                <option>5 days per week</option>
+                <option>Need advice</option>
+              </select>
+            </div>
+
+            <button type="submit"
+                    class="focus-ring inline-flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-700 px-6 py-4 font-bold text-white shadow-lg transition hover:bg-emerald-800">
+              Send Inquiry on WhatsApp
+              <span aria-hidden="true">↗</span>
+            </button>
+
+            <p class="text-center text-xs leading-5 text-gray-500">
+              This form opens WhatsApp with your inquiry details. Review the message and send it to our academy to complete your request.
+            </p>
+            <p id="form-status" class="text-sm text-red-700" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         10. FINAL CALL TO ACTION
+    ========================================================== -->
+    <section class="bg-amber-50 px-4 py-12 sm:px-6 lg:px-8">
+      <div class="mx-auto flex max-w-5xl flex-col items-center justify-between gap-6 text-center sm:flex-row sm:text-left">
+        <div>
+          <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Your Quran Journey Can Start Today.</h2>
+          <p class="mt-2 text-sm leading-6 text-gray-600">Take the first step. Contact us to discuss your free trial.</p>
+        </div>
+        <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20I%20want%20to%20book%20a%20Free%20Trial%20Class%20at%20Dar%20ul%20Quran%20Online."
+           target="_blank" rel="noopener noreferrer"
+           class="focus-ring inline-flex shrink-0 items-center justify-center rounded-xl bg-gold px-7 py-4 font-bold text-white shadow-sm hover:bg-amber-700">
+          Book Free Trial →
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       11. FOOTER
+  ========================================================== -->
+  <footer class="bg-gray-950 px-4 py-10 text-gray-300 sm:px-6 lg:px-8">
+    <div class="mx-auto grid max-w-7xl gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="sm:col-span-2">
+        <a href="#home" class="inline-flex items-center gap-3 text-white">
+          <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-700 text-xl text-amber-300" aria-hidden="true">۞</span>
+          <span class="text-lg font-extrabold">Dar ul Quran Online</span>
+        </a>
+        <p class="mt-4 max-w-md text-sm leading-7 text-gray-400">
+          Online Quran learning for children and adults, with personal attention and flexible lesson scheduling.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="font-bold text-white">Quick Links</h2>
+        <ul class="mt-4 space-y-3 text-sm">
+          <li><a href="#courses" class="hover:text-amber-300">Our Courses</a></li>
+          <li><a href="#why-us" class="hover:text-amber-300">Why Choose Us</a></li>
+          <li><a href="#pricing" class="hover:text-amber-300">Fee Plans</a></li>
+          <li><a href="#reviews" class="hover:text-amber-300">Parent Feedback</a></li>
+          <li><a href="#contact" class="hover:text-amber-300">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="font-bold text-white">Contact</h2>
+        <p class="mt-4 text-sm text-gray-400">WhatsApp / Phone</p>
+        <a href="https://wa.me/923165611279" target="_blank" rel="noopener noreferrer"
+           class="mt-2 inline-block text-sm font-bold text-amber-300 hover:text-amber-200">
+          0316-5611279
+        </a>
+        <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum%21%20I%20want%20to%20book%20a%20Free%20Trial%20Class%20at%20Dar%20ul%20Quran%20Online."
+           target="_blank" rel="noopener noreferrer"
+           class="mt-4 inline-flex items-center rounded-lg bg-emerald-700 px-4 py-2.5 text-sm font-bold text-white hover:bg-emerald-600">
+          Message Us ↗
+        </a>
+      </div>
+    </div>
+
+    <div class="mx-auto mt-10 max-w-7xl border-t border-white/10 pt-6 text-center text-xs text-gray-500">
+      <p>© <span id="copyright-year">2026</span> Dar ul Quran Online. All rights reserved.</p>
+      <p class="mt-2">Learn with sincerity. Grow through knowledge.</p>
+    </div>
+  </footer>
+
+  <!-- =========================================================
+       12. STICKY FLOATING WHATSAPP BUTTON
+  ========================================================== -->
+  <a href="https://wa.me/923165611279?text=Assalam-o-Alaikum!%20I%20want%20to%20book%20a%20Free%20Trial%20Class%20at%20Dar%20ul%20Quran%20Online."
+     target="_blank" rel="noopener noreferrer"
+     aria-label="Book a free Quran trial on WhatsApp"
+     class="focus-ring fixed bottom-5 right-4 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-xl transition hover:scale-105 hover:bg-[#1ebe5d] sm:bottom-7 sm:right-7 sm:h-16 sm:w-16">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+         viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M20.52 3.48A11.85 11.85 0 0 0 12.07 0C5.5 0 .15 5.35.15 11.92c0 2.1.55 4.15 1.6 5.96L.05 24l6.27-1.64a11.94 11.94 0 0 0 5.74 1.46h.01C18.64 23.82 24 18.47 24 11.9a11.84 11.84 0 0 0-3.48-8.42ZM12.07 21.8a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.72.97.99-3.62-.24-.37a9.85 9.85 0 0 1-1.52-5.27c0-5.48 4.46-9.94 9.94-9.94a9.88 9.88 0 0 1 7.03 2.91 9.87 9.87 0 0 1 2.9 7.03c0 5.48-4.46 9.94-9.94 9.94Zm5.45-7.44c-.3-.15-1.77-.87-2.05-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.74-1.64-2.04-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.21 5.09 4.5.71.3 1.26.49 1.69.62.71.22 1.36.19 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/>
+    </svg>
+  </a>
+
+  <!-- =========================================================
+       13. INTERACTIVE JAVASCRIPT
+  ========================================================== -->
+  <script>
+    // Mobile navigation toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+      const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+      menuToggle.setAttribute('aria-expanded', String(!isExpanded));
+      mobileMenu.classList.toggle('hidden', isExpanded);
+    });
+
+    // Close mobile menu after a navigation link is selected
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Inquiry form: validate fields and build a pre-filled WhatsApp message.
+    // This does not transmit form data until the visitor sends the WhatsApp message.
+    const inquiryForm = document.getElementById('inquiry-form');
+    const formStatus = document.getElementById('form-status');
+    const academyWhatsApp = '923165611279';
+
+    inquiryForm.addEventListener('submit', function (event) {
+      event.preventDefault();
+      formStatus.textContent = '';
+
+      if (!inquiryForm.reportValidity()) return;
+
+      const name = document.getElementById('full-name').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const country = document.getElementById('country').value || 'Not specified';
+      const course = document.getElementById('course').value;
+      const learner = document.getElementById('learner').value || 'Not specified';
+      const schedule = document.getElementById('schedule').value || 'Flexible';
+
+      // Basic phone sanity check; international formats vary by country.
+      if (!/^[+()\d\s.-]{7,30}$/.test(phone)) {
+        formStatus.textContent = 'Please enter a valid phone number, including your country code if possible.';
+        document.getElementById('phone').focus();
+        return;
+      }
+
+      const message = [
+        'Assalam-o-Alaikum!',
+        'I would like to book a 3-Day Free Trial Class at Dar ul Quran Online.',
+        '',
+        'Name: ' + name,
+        'My WhatsApp / Phone: ' + phone,
+        'Country: ' + country,
+        'Learner: ' + learner,
+        'Course: ' + course,
+        'Preferred Schedule: ' + schedule,
+        '',
+        'Please share the next steps. JazakAllah Khair!'
+      ].join('\n');
+
+      const whatsappUrl = 'https://wa.me/' + academyWhatsApp
+        + '?text=' + encodeURIComponent(message);
+
+      // Open WhatsApp from the direct form submission.
+      const whatsappWindow = window.open(whatsappUrl, '_blank');
+
+      if (whatsappWindow) {
+        whatsappWindow.opener = null;
+        formStatus.className = 'text-sm text-emerald-700';
+        formStatus.textContent = 'WhatsApp opened with your inquiry. Review the details and press Send to contact the academy.';
+      } else {
+        // Popup blockers may prevent a new window; offer a direct link.
+        formStatus.className = 'text-sm text-gray-700';
+        formStatus.innerHTML = '';
+        const fallbackLink = document.createElement('a');
+        fallbackLink.href = whatsappUrl;
+        fallbackLink.target = '_blank';
+        fallbackLink.rel = 'noopener noreferrer';
+        fallbackLink.textContent = 'Click here to open your WhatsApp inquiry';
+        fallbackLink.className = 'font-bold text-emerald-800 underline';
+        formStatus.appendChild(fallbackLink);
+      }
+    });
+
+    // Dynamic copyright year
+    document.getElementById('copyright-year').textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
